@@ -1,0 +1,12 @@
+<body>
+  <h1>students</h1>
+  <ul>
+    <% students.forEach(student => { %>
+      <li>
+				<%= student.name %> 
+				- 
+				<%= student.Jedi ? 'yes' : 'no' %>
+			</li>
+    <% }) %>
+  </ul>
+</body>
